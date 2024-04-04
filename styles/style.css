@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:visited, a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    color: #fff;
+    font-family: 'Geologica';
+}
+
+/* ========== */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+/* ================= */
+
+.first__block {
+    background-color: #171524;
+    min-height: 1070px;
+    background-image: url("../assets/Header/cloud.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+
+.header {
+    position: relative;
+}
+
+.header:after {
+    content: url("../assets/Header/crooked__line.svg");
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 49px 120px;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 60px;
+}
+
+.header__item {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.header__number {
+    position: relative;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.header__number:before {
+    content: url("../assets/Header/telephone.svg");
+    display: block;
+    position: absolute;
+    left: -30px;
+}
+
+
+.header__item {
+    position: relative;
+}
+
+.header__item__arrow {
+    position: relative;
+}
+
+.header__item__arrow:before {
+    content: url("../assets/Header/down-arrow.svg");
+    display: block;
+    position: absolute;
+    right: -20px;
+}
+
+/* ======================================== */
+
+.content__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__block__2 {
+    margin-top: -13px;
+    position: relative;
+}
+
+.content__block__2__img {
+    position: relative;
+}
+
+.content__block__2__img__1 {
+    position: absolute;
+    left: -230px;
+    z-index: 50;
+}
+
+.content__block__2__img__2 {
+    position: absolute;
+    right: 0px;
+    border-radius: 30px;
+
+}
+
